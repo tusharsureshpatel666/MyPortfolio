@@ -3,10 +3,12 @@ import React, { useRef } from "react";
 import { dockApps } from "../constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import useWindowStore from "../store/window";
 
 const Dock = () => {
   const dockRef = useRef(null);
-
+  const { openWindow, closeWindow, focusWindow, windows } = useWindowStore();
+  console.log("Dock windows state:", windows);
   useGSAP(() => {
     const dock = dockRef.current;
     if (!dock) return;
@@ -53,7 +55,19 @@ const Dock = () => {
     };
   }, []);
 
-  const toggleApp = ({ app }) => {};
+  const toggleApp = (app, data = null) => {
+    console.log("Toggling app:", app.id);
+    if (!app.canOpen) return;
+    const window = windows[data.from];
+    console.log("Current window state:", window);
+
+    if (window.isOpen) {
+      closeWindow(app.id);
+    } else {
+      openWindow(app.id, data);
+    }
+    console.log(window);
+  };
   return (
     <section id="dock">
       <div ref={dockRef} className="dock-container">
@@ -67,7 +81,7 @@ const Dock = () => {
               data-tooltip-content={name}
               data-tooltip-delay-show={150}
               disabled={!canOpen}
-              onClick={() => toggleApp({ id, canOpen })}
+              onClick={() => toggleApp({ id, canOpen }, { from: id })} // finder
             >
               <img
                 src={`/images/${icon}`}

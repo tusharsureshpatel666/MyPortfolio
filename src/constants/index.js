@@ -147,7 +147,7 @@ const socials = [
     text: "Platform",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "",
+    link: "https://my-portfolio-mu-one-z2w5fu4sj9.vercel.app/",
   },
   {
     id: 3,

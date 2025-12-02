@@ -18,17 +18,16 @@ const Contact = () => {
 
       <div className="p-4">
         <div className="grid grid-cols-2  gap-4">
-          {socials.map(({ id, text, icon, bg, link }) => (
+          {socials.map(({ id, text, icon, link }) => (
             <a
               href={link}
               key={id}
               target="_blank"
               rel="noreferrer"
-              style={{ backgroundColor: bg }}
-              className="rounded-xl p-4 flex flex-col items-center justify-center gap-3 cursor-pointer transition-transform hover:scale-105"
+              className="rounded-xl p-4 border border-gray-200 flex flex-col items-center justify-center gap-3 cursor-pointer transition-transform hover:scale-105"
             >
               <img src={icon} alt={text} className="w-10 h-10" />
-              <p className="text-lg font-semibold text-white">{text}</p>
+              <p className="text-lg font-semibold text-black">{text}</p>
             </a>
           ))}
         </div>

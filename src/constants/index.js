@@ -139,28 +139,28 @@ const socials = [
     id: 1,
     text: "Github",
     icon: "/icons/github.svg",
-    bg: "#f4656b",
+
     link: "https://github.com/tusharsureshpatel666",
   },
   {
     id: 2,
-    text: "Platform",
+    text: "Youtube",
     icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://my-portfolio-mu-one-z2w5fu4sj9.vercel.app/",
+
+    link: "https://www.youtube.com/channel/UC9qXbjqbV-MI4sZdrLiO71w",
   },
   {
     id: 3,
     text: "Twitter/X",
     icon: "/icons/twitter.svg",
-    bg: "#ff866b",
+
     link: "https://x.com/enkylo_",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
-    bg: "#05b6f6",
+
     link: "https://www.linkedin.com/in/tushar-patel-239389361/",
   },
 ];
@@ -233,7 +233,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Signalist",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -241,36 +241,25 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Signalist Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Think of this as your personal trading floor in your pocket — a sleek, modern stock market tracker that watches the market for you and sends real-time buy/sell wishlist messages when your conditions are met.",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "Signalist.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://signlist.vercel.app/",
           position: "top-10 right-20",
         },
-        {
-          id: 4,
-          name: "nike.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
-        },
+
         {
           id: 5,
           name: "Design.fig",

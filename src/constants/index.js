@@ -350,7 +350,7 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "Bulidhub.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",

@@ -81,21 +81,21 @@ const blogPosts = [
     title:
       "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "https://typescript.tv/best-practices/stop-using-typescripts-exclamation-mark/",
   },
   {
     id: 2,
     date: "Aug 28, 2025",
     title: "The Ultimate Guide to Mastering Three.js for 3D Development",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "https://discoverthreejs.com/book/first-steps/",
   },
   {
     id: 3,
     date: "Aug 15, 2025",
     title: "The Ultimate Guide to Mastering GSAP Animations",
     image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "https://blog.radialcode.com/category/animation/introduction-to-gsap-a-beginner-s-guide-to-animating-with-green-sock",
   },
 ];
 
@@ -275,7 +275,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "ResumeMaker",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -283,7 +283,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "AI Resume Maker Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -297,11 +297,11 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "ai-resume-maker.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://ai-project-maker-blush.vercel.app",
           position: "top-20 left-20",
         },
         {

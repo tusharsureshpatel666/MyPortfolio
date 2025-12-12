@@ -328,7 +328,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "BuildHub",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -336,16 +336,16 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Build HUB App Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "TheBuild Hub is an AI-powered fitness trainer designed to help you reach your goals faster.",
+            "Instead of guessing your workouts or following generic plans, you get personalized routines made just for your body and lifestyle.",
+            "Think of it like having a smart fitness coach in your pocket—guiding you anytime, anywhere.",
+            "It’s built with modern AI, so it gives real-time support with a clean and easy-to-use design.",
           ],
         },
         {
@@ -354,7 +354,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://best-shape-main.vercel.app/",
           position: "top-10 right-20",
         },
         {
